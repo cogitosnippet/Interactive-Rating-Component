@@ -166,3 +166,34 @@ body{
   padding-right: 30px;
 }
 
+@media(max-width: 500px){
+  .card{
+    width: 275px;
+    padding: 30px;
+  }
+
+  .image{
+    margin-bottom: 15px;
+    height: 45px;
+    width: 45px;
+  }
+
+  .para{
+    margin-bottom: 10px;
+  }
+  .rating{
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+  }
+  .rating-container{
+    margin-bottom: 0px;
+  }
+  .butt{
+    margin-top: 0px;
+  }
+
+  .thank-you-state-para{
+    font-size: 14px;
+  }
+}
